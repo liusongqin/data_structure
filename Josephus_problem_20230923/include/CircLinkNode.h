@@ -4,11 +4,11 @@ struct CircLinkNode
 	int data;
 	CircLinkNode* link;
 	//链表结点类定义
-	CircLinkNode(CircLinkNode* next = NULL)
+	CircLinkNode(CircLinkNode* next = nullptr)
 	{
 		link = next;
 	}
-	CircLinkNode(int d, CircLinkNode* next = NULL)
+	CircLinkNode(int d, CircLinkNode* next = nullptr)
 	{
 		data = d; link = next;
 	}
